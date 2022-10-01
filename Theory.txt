@@ -1,0 +1,6 @@
+Two types of exports
+    Default exports
+    Named exports
+
+super(); => when inheriting (extends keyword) from parent class, super method called inside child class constructor
+            to call the parent constructor
