@@ -4,3 +4,9 @@ Two types of exports
 
 super(); => when inheriting (extends keyword) from parent class, super method called inside child class constructor
             to call the parent constructor
+
+
+REST OPERATOR => takes the arguments to an array
+let test = (...args) => {
+    return args.filter(item => item > 2);
+}
