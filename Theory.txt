@@ -10,3 +10,6 @@ REST OPERATOR => takes the arguments to an array
 let test = (...args) => {
     return args.filter(item => item > 2);
 }
+
+COMPONENT => reusable building blocks In UI
+Declarative Approach => when you update the code, react knows what has to be removed or added to the DOM
